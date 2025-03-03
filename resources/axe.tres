@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://cvpqhhig5srvw"]
+
+[ext_resource type="Script" path="res://resources/weapon.gd" id="1_dc54s"]
+[ext_resource type="Texture2D" uid="uid://bm0h233wxwrnb" path="res://assets/glitch/carSilver5_013.png" id="2_1m817"]
+
+[resource]
+script = ExtResource("1_dc54s")
+damage = 2
+weapon_name = "axe"
+texture = ExtResource("2_1m817")
