@@ -5,4 +5,8 @@ class_name ImageFilesList
 @export var file_name: Array[String]
 
 func add_filename(fn: String) -> void:
-	file_name.append(fn)
+	if !'.import' in fn:
+		file_name.append(fn)
+
+func get_file_name() -> Array[String]:
+	return file_name

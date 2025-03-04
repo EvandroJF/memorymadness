@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cpycsppabs4ea"]
 
-[ext_resource type="Script" path="res://tests/resource_test.gd" id="1_flcge"]
+[ext_resource type="Script" uid="uid://cmcbvxog5c0jm" path="res://tests/resource_test.gd" id="1_flcge"]
 [ext_resource type="Resource" uid="uid://bfnpq0ujx02og" path="res://resources/knife.tres" id="2_i3si6"]
 
 [node name="ResourceTest" type="Node2D"]

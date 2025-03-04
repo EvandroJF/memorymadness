@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://bfnpq0ujx02og"]
 
-[ext_resource type="Script" path="res://resources/weapon.gd" id="1_unpac"]
+[ext_resource type="Script" uid="uid://dwiltblo1y8ux" path="res://resources/weapon.gd" id="1_unpac"]
 [ext_resource type="Texture2D" uid="uid://cc4sldgotnn10" path="res://assets/glitch/ambulance_SE.png" id="2_14dxh"]
 
 [resource]
