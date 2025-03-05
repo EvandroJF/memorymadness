@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://donaefbglg7tb"]
+[gd_scene load_steps=3 format=3 uid="uid://donaefbglg7tb"]
+
+[ext_resource type="Script" uid="uid://1ici03pg7ye8" path="res://scenes/master/master.gd" id="1_jlra2"]
+[ext_resource type="Texture2D" uid="uid://c1xs3h455ug7e" path="res://assets/images/backgroundEmpty.png" id="1_kwmx6"]
 
 [node name="Master" type="CanvasLayer"]
+script = ExtResource("1_jlra2")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_kwmx6")
+expand_mode = 1
